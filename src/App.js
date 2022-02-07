@@ -4,6 +4,7 @@ import './App.css';
 
 // Components
 // import CompOne from './components/CompOne';
+import Bulb from './components/Bulb';
 
 const App = () => {
   // const [count, setCount] = useState(0);
@@ -47,13 +48,12 @@ const App = () => {
         <div>
           <h2 className='center'>It's {isDark ? 'Dark' : 'Light'} Mode</h2>
         </div>
+
+        <Bulb />
+
       </div>
-
-
-
 
     </>
   )
 }
-
 export default App;
